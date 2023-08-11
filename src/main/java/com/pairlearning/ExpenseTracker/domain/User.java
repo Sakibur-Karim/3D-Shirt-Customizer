@@ -1,9 +1,12 @@
-package com.pairlearning.ExpenseTracker.domain;
+package com.pairlearning.expensetracker.domain;
 
 public class User {
 
     private Integer userId;
-    private String firstName, lastName, email, password;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
 
     public User(Integer userId, String firstName, String lastName, String email, String password) {
         this.userId = userId;

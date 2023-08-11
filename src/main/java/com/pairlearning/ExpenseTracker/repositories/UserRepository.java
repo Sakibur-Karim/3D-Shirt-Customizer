@@ -1,7 +1,7 @@
-package com.pairlearning.ExpenseTracker.repositories;
+package com.pairlearning.expensetracker.repositories;
 
-import com.pairlearning.ExpenseTracker.domain.User;
-import com.pairlearning.ExpenseTracker.exceptions.EtAuthException;
+import com.pairlearning.expensetracker.domain.User;
+import com.pairlearning.expensetracker.exceptions.EtAuthException;
 
 public interface UserRepository {
 
@@ -12,4 +12,5 @@ public interface UserRepository {
     Integer getCountByEmail(String email);
 
     User findById(Integer userId);
+
 }
